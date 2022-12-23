@@ -1,0 +1,27 @@
+To install flask
+----------------------------------------
+pip install flask
+set FLASK_APP=flask_blog.py
+
+To run
+-----------
+flask --app flask_blog run
+or 
+flask run
+or
+python flask_blog.py
+
+To reload 
+----------
+set FLASK_DEBUG=1
+flask run
+
+or 
+--app flask_blog --debug run
+
+
+
+
+documentation
+--------------
+https://flask.palletsprojects.com/en/2.2.x/quickstart/
