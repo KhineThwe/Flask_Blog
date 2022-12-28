@@ -15,12 +15,11 @@ To reload
 ----------
 set FLASK_DEBUG=1
 flask run
-
 or 
 --app flask_blog --debug run
 
-
-
+To wtf form:
+pip install flask-wtf
 
 documentation
 --------------
