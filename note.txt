@@ -24,3 +24,18 @@ pip install flask-wtf
 documentation
 --------------
 https://flask.palletsprojects.com/en/2.2.x/quickstart/
+
+For DB,
+pip install sqlalchemy
+
+to create database for sqlite
+python =>interpreter
+from flask_blog import app, db
+app.app_context().push()
+db.create_all()
+from flask_blog import User,Post
+user1=User(username='John',email='john@gmail.com',password='password')
+db.session.add(user1)
+db.session.commit()
+--------------------->
+User.query.all()
