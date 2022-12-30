@@ -39,3 +39,21 @@ db.session.add(user1)
 db.session.commit()
 --------------------->
 User.query.all()
+
+After changing project structure 
+1.open python shell with python
+2. from flask_blog import app,db
+   app.app_context().push()
+3.db.create_all()
+4.from flask_blog.models import User,Post
+5.User.query.all()
+if u wanna exit
+exit()
+
+Wanna see pj structure
+tree command
+
+Install 
+-----------------
+pip install flask-bcrypt
+pip install flask-login
